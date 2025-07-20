@@ -10,6 +10,16 @@ A reusable React component for selecting recurring dates, supporting daily, week
 - Modern UI with Tailwind CSS
 - Easily embeddable in any React/Next.js project
 
+## Tech Stack
+- **Framework:** [Next.js](https://nextjs.org/) (React 19)
+- **UI:** [Tailwind CSS](https://tailwindcss.com/)
+- **State Management:** [Zustand](https://zustand-demo.pmnd.rs/)
+- **Date Utilities:** [date-fns](https://date-fns.org/)
+- **Testing:** [Jest](https://jestjs.io/), [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/)
+- **Linting:** [ESLint](https://eslint.org/) (with Next.js core-web-vitals)
+- **Build Tools:** [PostCSS](https://postcss.org/), [Autoprefixer](https://github.com/postcss/autoprefixer)
+- **Config/Tooling:** jsconfig for path aliases
+
 ## Project Structure
 - **recurring-date-picker/**: Main Next.js app and component source code
   - `src/components/RecurringDatePicker.js`: Main component
